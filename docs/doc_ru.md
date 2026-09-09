@@ -122,6 +122,15 @@ def perimeter(r: float) -> float:
 19.729201864543903 # Всегда float
 ```
 
+# История
+## Pre alpha
+Добавлена реализация модулей `circle.py` и `square.py`. (smartiqa -> `8ba9aeb3cea847b63a91ac378a2a6db758682460`)
+
+Добавлена документация по формулам (smartiqa -> `d078c8d9ee6155f3cb0e577d28d337b791de28e2`)
+
+## Alpha
+### v0.1a
+Добавлена документация к функциям модулей `circle.py` и `square.py`. (LeastDepressedDev -> `dfa7c489c63418b4644072fc9f6620966a471ea4`, `505070600926b815e3695b0d15c2aaded817659d`)
 
 # Tail
-Версия документации: 0.1a
+Версия документации: 0.1.2a
