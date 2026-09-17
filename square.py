@@ -23,6 +23,6 @@ def perimeter(a: float|int) -> float|int:
         a (float|int) - длина ребра квадрата.
 
     Возвращает:
-        S (float|int) - периметр квадрата.
+        P (float|int) - периметр квадрата.
     """
     return 4 * a
