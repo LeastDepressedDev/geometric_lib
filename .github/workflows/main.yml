@@ -10,5 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Test echo
-        run: echo "First worflow YEAAAAHAAA"
+      - name: Testing rectangle.py
+        run: python -m unittest rectangle.py
+
+      - name: Testing square.py
+        run: python -m unittest square.py
+
+      
+      - name: Testing circle.py
+        run: python -m unittest circle.py
+
+      
+      - name: Testing triangle.py
+        run: python -m unittest triangle.py
