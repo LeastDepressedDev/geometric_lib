@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 
 echo -e "\n\n\n\n\n\n\n\n\nRunning tests for circle:\n"
 python -m unittest circle.py
