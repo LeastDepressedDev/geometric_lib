@@ -1,0 +1,14 @@
+name: Unit test processor
+
+on:
+  push:
+    branches: ["feature_561827"]
+  pull_request:
+
+jobs:
+  unit-tests-linux:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test echo
+        run: echo "First worflow YEAAAAHAAA"
