@@ -122,6 +122,125 @@ def perimeter(r: float) -> float:
 19.729201864543903 # Всегда float
 ```
 
+## Прямоугльники
+Вычислительные функции связанные с прямоугольниками находятся в модуле `rectangle.py`.
+
+---
+
+### Площадь
+```py
+def area(a: int|float, b: int|float) -> int|float:
+    """
+    Вычисляет площадь прямоугольника, стороны которого a, b. Возвращаемый тип данных соответствует типу данных параметров a, b.
+
+    Параметры:
+        a (float|int) - сторона прямоугольника.
+        b (float|int) - другая сторона прямоугольника.
+
+    Возвращает:
+        S (float|int) - площаль прямоугольника.
+    """
+    ...
+```
+Пример вызова: 
+```py
+>>> import geometric_lib.rectangle as rectangle
+>>> rectangle.area(10, 20)
+
+200 <class 'int'>
+
+>>> rectangle.area(10, 20.5)
+
+205.0 <class 'float'>
+```
+
+---
+
+### Периметр
+```py
+def perimeter(a: int|float, b: int|float) -> int|float: 
+    """
+    Вычисляет периметр прямоугольника, стороны которого a, b. Возвращаемый тип данных соответствует типу данных параметров a, b.
+
+    Параметры:
+        a (float|int) - сторона прямоугольника.
+        b (float|int) - другая сторона прямоугольника.
+
+    Возвращает:
+        P (float|int) - периметр прямоугльника.
+    """
+    ...
+```
+Пример вызова: 
+```py
+>>> import geometric_lib.rectangle as rectangle
+>>> rectangle.perimeter(10, 20)
+
+60 <class 'int'>
+
+>>> rectangle.perimeter(5.5, 20)
+
+51.0 <class 'float'>
+```
+
+## Треугольник
+Вычислительные функции связанные с треугольниками находятся в модуле `triangle.py`.
+
+---
+
+### Площадь
+```py
+def area(a: int|float, h: int|float) -> float:
+    """
+    Вычисляет площадь треугольника с длиной основания a и высотой h. 
+
+    Параметры:
+        a (float|int) - длина основания треугольника.
+        h (float|int) - длина высоты треугольника.
+
+    Возвращает:
+        S (float) - площаль треугольника.
+    """
+    ...
+```
+Пример вызова: 
+```py
+>>> import geometric_lib.triangle as triangle
+>>> triangle.area(20, 5)
+
+50.0
+```
+
+---
+
+### Периметр
+```py
+def perimeter(a: int|float, b: int|float, c: int|float) -> int|float: 
+    """
+    Вычисляет периметр треугольника с сторонами a, b, c. Возвращаемый тип данных соответствует типу данных параметров a, b, c.
+
+    Параметры:
+        a (float|int) - сторона 1.
+        b (float|int) - сторона 2.
+        c (float|int) - сторона 3.
+
+    Возвращает:
+        P (float|int) - периметр треугольника.
+    """
+    ...
+```
+Пример вызова: 
+```py
+>>> import geometric_lib.triangle as triangle
+>>> triangle.perimeter(20, 1, 5)
+
+26 <class 'int'>
+
+>>> triangle.perimeter(2.3, 1, 1.4)
+
+4.699999999999999 <class 'float'>
+```
+
 # История
 ## Pre alpha
 Добавлена реализация модулей `circle.py` и `square.py`. (smartiqa -> `8ba9aeb3cea847b63a91ac378a2a6db758682460`)
@@ -131,6 +250,10 @@ def perimeter(r: float) -> float:
 ## Alpha
 ### v0.1a
 Добавлена документация к функциям модулей `circle.py` и `square.py`. (LeastDepressedDev -> `dfa7c489c63418b4644072fc9f6620966a471ea4`, `505070600926b815e3695b0d15c2aaded817659d`)
+
+Добавлены модули `rectangle.py` и `triangle.py`. (LeastDepressedDev -> `6ddeade25533bf5e3a426b345c1e08776b5906a6`,`28de3a4ac741de9fb2a29664b1fc490f24b6cbc9`,`34b6da8765883b55017e970614bcf9cd1747ed86`)
+
+Добавлена документация к модулям `rectangle.py` и `triangle.py`. (LeastDepressedDev -> `65b6fe3e79c44a9cec5c64f07cde5ab76c09c246`) 
 
 # Tail
 Версия документации: 0.1.2a
