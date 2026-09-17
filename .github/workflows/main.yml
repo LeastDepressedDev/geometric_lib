@@ -38,5 +38,6 @@ jobs:
           python -m pip install --upgrade pip
     
       - name: Testing modules
+        shell: cmd
         run: |
           run_tests.bat
