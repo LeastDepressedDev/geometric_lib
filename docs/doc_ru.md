@@ -255,5 +255,7 @@ def perimeter(a: int|float, b: int|float, c: int|float) -> int|float:
 
 Добавлена документация к модулям `rectangle.py` и `triangle.py`. (LeastDepressedDev -> `65b6fe3e79c44a9cec5c64f07cde5ab76c09c246`) 
 
+Добавлены первые юнит-тесты к модулям. (LeastDepressedDev -> `6d46bddaa69e10f366936e503ec121c9eea10544`)
+
 # Tail
 Версия документации: 0.1.2a
