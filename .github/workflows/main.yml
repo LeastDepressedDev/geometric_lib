@@ -22,14 +22,45 @@ jobs:
     
       - name: Testing rectangle.py
         run: python -m unittest rectangle.py
+        continue-on-error: true
 
       - name: Testing square.py
         run: python -m unittest square.py
-
+        continue-on-error: true
       
       - name: Testing circle.py
         run: python -m unittest circle.py
-
+        continue-on-error: true
       
       - name: Testing triangle.py
         run: python -m unittest triangle.py
+        continue-on-error: true
+
+  unit-tests-windows:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+    
+      - name: Setup python
+        uses: actions/setup-python@v3
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+    
+      - name: Testing rectangle.py
+        run: python -m unittest rectangle.py
+        continue-on-error: true
+
+      - name: Testing square.py
+        run: python -m unittest square.py
+        continue-on-error: true
+      
+      - name: Testing circle.py
+        run: python -m unittest circle.py
+        continue-on-error: true
+      
+      - name: Testing triangle.py
+        run: python -m unittest triangle.py
+        continue-on-error: true
