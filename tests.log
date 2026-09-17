@@ -1,0 +1,523 @@
+Running tests for circle:
+
+FFFF
+======================================================================
+FAIL: test_area_calculations (circle.TestsCircle.test_area_calculations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/circle.py", line 94, in test_area_calculations
+    self.assertEqual(res, test[1])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 12.566370614359172 != 12.56
+
+======================================================================
+FAIL: test_area_types (circle.TestsCircle.test_area_types)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/circle.py", line 99, in test_area_types
+    self.assertIsInstance(res, test[1])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 3.141592653589793 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_calculations (circle.TestsCircle.test_perimeter_calculations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/circle.py", line 84, in test_perimeter_calculations
+    self.assertEqual(res, test[1])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 106.81415022205297 != 106.76
+
+======================================================================
+FAIL: test_perimeter_types (circle.TestsCircle.test_perimeter_types)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/circle.py", line 89, in test_perimeter_types
+    self.assertIsInstance(res, test[1])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -6.283185307179586 is not an instance of <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=4)
+
+
+
+
+
+
+
+
+
+Running tests for rectangle:
+
+FFFFFFFFFFFF
+======================================================================
+FAIL: test_area_calculations (rectangle.TestsRectangle.test_area_calculations) (test=(-1, 5, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 91, in test_area_calculations
+    self.assertEqual(res, test[2])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -5 != None
+
+======================================================================
+FAIL: test_area_calculations (rectangle.TestsRectangle.test_area_calculations) (test=(5, -1, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 91, in test_area_calculations
+    self.assertEqual(res, test[2])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -5 != None
+
+======================================================================
+FAIL: test_area_calculations (rectangle.TestsRectangle.test_area_calculations) (test=(-2, -3, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 91, in test_area_calculations
+    self.assertEqual(res, test[2])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 6 != None
+
+======================================================================
+FAIL: test_area_types (rectangle.TestsRectangle.test_area_types) [(-1, 5, <class 'NoneType'>)]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 97, in test_area_types
+    self.assertIsInstance(res, test[2])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -5 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_area_types (rectangle.TestsRectangle.test_area_types) [(5, -1, <class 'NoneType'>)]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 97, in test_area_types
+    self.assertIsInstance(res, test[2])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -5 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_area_types (rectangle.TestsRectangle.test_area_types) [(-2, -3, <class 'NoneType'>)]
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 97, in test_area_types
+    self.assertIsInstance(res, test[2])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 6 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_calculations (rectangle.TestsRectangle.test_perimeter_calculations) (test=(-1, 5, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 103, in test_perimeter_calculations
+    self.assertEqual(res, test[2])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 8 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (rectangle.TestsRectangle.test_perimeter_calculations) (test=(5, -1, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 103, in test_perimeter_calculations
+    self.assertEqual(res, test[2])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 8 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (rectangle.TestsRectangle.test_perimeter_calculations) (test=(-2, -3, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 103, in test_perimeter_calculations
+    self.assertEqual(res, test[2])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -10 != None
+
+======================================================================
+FAIL: test_perimeter_types (rectangle.TestsRectangle.test_perimeter_types) (test=(-1, 5, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 109, in test_perimeter_types
+    self.assertIsInstance(res, test[2])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 8 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_types (rectangle.TestsRectangle.test_perimeter_types) (test=(5, -1, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 109, in test_perimeter_types
+    self.assertIsInstance(res, test[2])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 8 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_types (rectangle.TestsRectangle.test_perimeter_types) (test=(-2, -3, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/rectangle.py", line 109, in test_perimeter_types
+    self.assertIsInstance(res, test[2])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -10 is not an instance of <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+FAILED (failures=12)
+
+
+
+
+
+
+
+
+
+Running tests for square:
+
+FFFFFFFF
+======================================================================
+FAIL: test_area_calculations (square.TestsSquare.test_area_calculations) (test=(-1, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/square.py", line 88, in test_area_calculations
+    self.assertEqual(res, test[1])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 1 != None
+
+======================================================================
+FAIL: test_area_calculations (square.TestsSquare.test_area_calculations) (test=(-15, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/square.py", line 88, in test_area_calculations
+    self.assertEqual(res, test[1])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 225 != None
+
+======================================================================
+FAIL: test_area_types (square.TestsSquare.test_area_types) (test=(-1, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/square.py", line 94, in test_area_types
+    self.assertIsInstance(res, test[1])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 1 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_area_types (square.TestsSquare.test_area_types) (test=(-15, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/square.py", line 94, in test_area_types
+    self.assertIsInstance(res, test[1])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 225 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_calculations (square.TestsSquare.test_perimeter_calculations) (test=(-1, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/square.py", line 100, in test_perimeter_calculations
+    self.assertEqual(res, test[1])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -4 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (square.TestsSquare.test_perimeter_calculations) (test=(-15, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/square.py", line 100, in test_perimeter_calculations
+    self.assertEqual(res, test[1])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -60 != None
+
+======================================================================
+FAIL: test_perimeter_types (square.TestsSquare.test_perimeter_types) (test=(-1, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/square.py", line 106, in test_perimeter_types
+    self.assertIsInstance(res, test[1])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -4 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_types (square.TestsSquare.test_perimeter_types) (test=(-15, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/square.py", line 106, in test_perimeter_types
+    self.assertIsInstance(res, test[1])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -60 is not an instance of <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=8)
+
+
+
+
+
+
+
+
+
+Running tests for triangle:
+
+FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+======================================================================
+FAIL: test_area_calculations (triangle.TestsTriangle.test_area_calculations) (test=(0, 5, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 110, in test_area_calculations
+    self.assertEqual(res, test[2])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 0.0 != None
+
+======================================================================
+FAIL: test_area_calculations (triangle.TestsTriangle.test_area_calculations) (test=(5, 0, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 110, in test_area_calculations
+    self.assertEqual(res, test[2])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 0.0 != None
+
+======================================================================
+FAIL: test_area_calculations (triangle.TestsTriangle.test_area_calculations) (test=(-1, 5, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 110, in test_area_calculations
+    self.assertEqual(res, test[2])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -2.5 != None
+
+======================================================================
+FAIL: test_area_calculations (triangle.TestsTriangle.test_area_calculations) (test=(5, -1, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 110, in test_area_calculations
+    self.assertEqual(res, test[2])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -2.5 != None
+
+======================================================================
+FAIL: test_area_calculations (triangle.TestsTriangle.test_area_calculations) (test=(-2, -3, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 110, in test_area_calculations
+    self.assertEqual(res, test[2])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 3.0 != None
+
+======================================================================
+FAIL: test_area_types (triangle.TestsTriangle.test_area_types) (test=(0, 5, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 116, in test_area_types
+    self.assertIsInstance(res, test[2])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 0.0 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_area_types (triangle.TestsTriangle.test_area_types) (test=(5, 0, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 116, in test_area_types
+    self.assertIsInstance(res, test[2])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 0.0 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_area_types (triangle.TestsTriangle.test_area_types) (test=(-1, 5, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 116, in test_area_types
+    self.assertIsInstance(res, test[2])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -2.5 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_area_types (triangle.TestsTriangle.test_area_types) (test=(5, -1, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 116, in test_area_types
+    self.assertIsInstance(res, test[2])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: -2.5 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_area_types (triangle.TestsTriangle.test_area_types) (test=(-2, -3, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 116, in test_area_types
+    self.assertIsInstance(res, test[2])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 3.0 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_calculations (triangle.TestsTriangle.test_perimeter_calculations) (test=(0, 0, 0, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 122, in test_perimeter_calculations
+    self.assertEqual(res, test[3])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 0 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (triangle.TestsTriangle.test_perimeter_calculations) (test=(0, 5, 5, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 122, in test_perimeter_calculations
+    self.assertEqual(res, test[3])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 10 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (triangle.TestsTriangle.test_perimeter_calculations) (test=(5, 0, 5, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 122, in test_perimeter_calculations
+    self.assertEqual(res, test[3])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 10 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (triangle.TestsTriangle.test_perimeter_calculations) (test=(5, 5, 0, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 122, in test_perimeter_calculations
+    self.assertEqual(res, test[3])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 10 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (triangle.TestsTriangle.test_perimeter_calculations) (test=(100, 200, 300, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 122, in test_perimeter_calculations
+    self.assertEqual(res, test[3])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 600 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (triangle.TestsTriangle.test_perimeter_calculations) (test=(1, 2, 5, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 122, in test_perimeter_calculations
+    self.assertEqual(res, test[3])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 8 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (triangle.TestsTriangle.test_perimeter_calculations) (test=(4.0, 0.5, 1.5, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 122, in test_perimeter_calculations
+    self.assertEqual(res, test[3])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 6.0 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (triangle.TestsTriangle.test_perimeter_calculations) (test=(-1, 5, 5, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 122, in test_perimeter_calculations
+    self.assertEqual(res, test[3])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 9 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (triangle.TestsTriangle.test_perimeter_calculations) (test=(5, -1, 5, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 122, in test_perimeter_calculations
+    self.assertEqual(res, test[3])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 9 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (triangle.TestsTriangle.test_perimeter_calculations) (test=(5, 5, -1, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 122, in test_perimeter_calculations
+    self.assertEqual(res, test[3])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 9 != None
+
+======================================================================
+FAIL: test_perimeter_calculations (triangle.TestsTriangle.test_perimeter_calculations) (test=(1, 1, 5, None))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 122, in test_perimeter_calculations
+    self.assertEqual(res, test[3])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 7 != None
+
+======================================================================
+FAIL: test_perimeter_types (triangle.TestsTriangle.test_perimeter_types) (test=(0, 0, 0, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 128, in test_perimeter_types
+    self.assertIsInstance(res, test[3])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 0 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_types (triangle.TestsTriangle.test_perimeter_types) (test=(100, 200, 300, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 128, in test_perimeter_types
+    self.assertIsInstance(res, test[3])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 600 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_types (triangle.TestsTriangle.test_perimeter_types) (test=(1, 2, 5, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 128, in test_perimeter_types
+    self.assertIsInstance(res, test[3])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 8 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_types (triangle.TestsTriangle.test_perimeter_types) (test=(4.0, 0.5, 1.5, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 128, in test_perimeter_types
+    self.assertIsInstance(res, test[3])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 6.0 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_types (triangle.TestsTriangle.test_perimeter_types) (test=(-1, 5, 5, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 128, in test_perimeter_types
+    self.assertIsInstance(res, test[3])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 9 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_types (triangle.TestsTriangle.test_perimeter_types) (test=(5, -1, 5, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 128, in test_perimeter_types
+    self.assertIsInstance(res, test[3])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 9 is not an instance of <class 'NoneType'>
+
+======================================================================
+FAIL: test_perimeter_types (triangle.TestsTriangle.test_perimeter_types) (test=(5, 5, -1, <class 'NoneType'>))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ldd/all/docs/rpo/lab_doc_2and4/geometric_lib/triangle.py", line 128, in test_perimeter_types
+    self.assertIsInstance(res, test[3])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 9 is not an instance of <class 'NoneType'>
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.004s
+
+FAILED (failures=28)
